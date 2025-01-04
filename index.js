@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
     res.send('Hello World! ci-cdgit ');
 });
 
+app.get('/user', (req, res) => {
+    res.send('hii jai sri ram');
+});
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
