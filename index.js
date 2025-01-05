@@ -11,7 +11,7 @@ app.get('/user', (req, res) => {
     res.send('hii jai sri ram');
 });
 app.get('/user/check', (req, res) => {
-    res.send('hii working fine raj srivastava');
+    res.send('hii working fine raj srivastava do it..');
 });
 
 app.listen(port, () => {
